@@ -1,0 +1,24 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "this is rest API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "shivam",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "chalk": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.0",
+    "morgan": "^1.10.0"
+  }
+}
